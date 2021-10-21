@@ -1,0 +1,13 @@
+{
+  "loader":{
+    "loading":"Loading Now"
+  },
+  "landing":{
+    "login":"Login",
+    "signup":"Sign Up",
+    "signuptoday":"Sign Up Today",
+    "settle":"Don´t settle",
+    "fora":"for a",
+    "diamonds":"Get diamonds and invest in creators like never before. Your next post could be worth millions!"
+  }
+}

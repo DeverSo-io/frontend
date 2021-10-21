@@ -1,10 +1,10 @@
 <div
   class="d-flex flex-column align-items-center justify-content-center loading-container"
   [ngStyle]="{ height: getHeight() }"
->
+  *transloco="let t">
   <img class="fc-secondary spinner-color" src="../../assets/diamond/spinner3.svg" height="100px" width="100px"/>
   <div class="mt-12px fc-secondary">
-    <div class="fc-secondary fs-24px text-align-center">{{ titleLoadingText }}</div>
+    <div class="fc-secondary fs-24px text-align-center">{{ t('loader.loading') }}</div>
     <div *ngIf="subtitleLoadingText">
       <div class="fc-secondary fs-15px text-center">{{ subtitleLoadingText }}</div>
     </div>

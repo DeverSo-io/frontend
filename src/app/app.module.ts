@@ -183,6 +183,7 @@ import { ThemeModule } from "./theme/theme.module";
 import { Theme } from "./theme/symbols";
 import { ScrollingModule } from "@angular/cdk/scrolling";
 import { PostMultiplierComponent } from './feed/feed-post-dropdown/post-multiplier/post-multiplier.component';
+import { TranslocoRootModule } from './transloco-root.module';
 const lightTheme: Theme = { key: "light", name: "Light Theme" };
 const darkTheme: Theme = { key: "dark", name: "Dark Theme" };
 
@@ -377,6 +378,7 @@ export function playerFactory() {
     LottieModule,
     LottieModule.forRoot({ player: playerFactory }),
     ScrollingModule,
+    TranslocoRootModule,
   ],
   providers: [BackendApiService, GlobalVarsService, BsModalService, IdentityService],
   bootstrap: [AppComponent],
