@@ -1,13 +1,13 @@
 {
   "loader":{
-    "loading":"Cargando Ahora"
+    "loading":"Cargando ahora"
   },
   "landing":{
     "login":"Entrar",
-    "signup":"Registrar",
-    "signuptoday":"Registrar Hoy",
+    "signup":"Crea una cuenta",
+    "signuptoday":"Regístrate hoy",
     "settle":"No te conformes",
-    "fora":"Por un",
-    "diamonds":"Obten diamantes, y invierte en tus creadores"
+    "fora":"solo con un",
+    "diamonds":"Consigue diamantes e invierte en creadores de contenido como nunca antes. ¡Tu próxima publicación podría valer millones!"
   }
 }
